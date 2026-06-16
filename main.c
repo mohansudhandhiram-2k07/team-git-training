@@ -2,7 +2,7 @@
 
 // --- 1. Function Prototypes ---
 // Teammates: Uncomment your specific prototype when it's your turn.
-//int mohan_add(int current_value, int add_val);
+int mohan_add(int current_value, int add_val);
 // int nandhitha_sub(int current_value, int sub_val);
 // int nandhana_mul(int current_value, int mul_val);
 // int kumaar_div(int current_value, int div_val);
@@ -16,8 +16,8 @@ int main(void) {
     printf("Initial Base Value: %d\n", result);
 
     // Mohan's Step (Addition)
-    //result = mohan_add(result, 15);
-    //printf("After Mohan's Add (+15): %d\n", result);
+    result = mohan_add(result, 15);
+    printf("After Mohan's Add (+15): %d\n", result);
 
     // --- 2. Pipeline Execution ---
     // Teammates: Uncomment your step, make sure you use the 'result' 
@@ -42,9 +42,9 @@ int main(void) {
 // --- 3. Function Definitions ---
 
 // The initial example
-/* int mohan_add(int current_value, int add_val) {
+ int mohan_add(int current_value, int add_val) {
     return current_value + add_val;
-}*/
+}
 
 // Teammates: Define your functions below!
 // They should look very similar to Mohan's function above.
