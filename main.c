@@ -5,7 +5,7 @@
 int mohan_add(int current_value, int add_val);
 int nandhitha_sub(int current_value, int sub_val);
  int nandhana_mul(int current_value, int mul_val);
-// int kumaar_div(int current_value, int div_val);
+int kumaar_div(int current_value, int div_val);
  int naveen_mod(int current_value, int mod_val);
 
 int main(void) {
@@ -29,8 +29,8 @@ int main(void) {
     result = nandhana_mul(result, 2);
     printf("After Nandhana's Mul (*2): %d\n", result);
 
-    // result = kumaar_div(result, 4);
-    // printf("After Kumaar's Div (/4): %d\n", result);
+    result = kumaar_div(result, 4);
+    printf("After Kumaar's Div (/4): %d\n", result);
 
      result = naveen_mod(result, 7);
      printf("After Naveen's Mod (%%7): %d\n", result);
@@ -61,11 +61,11 @@ int nandhana_mul(int current_value, int mul_val) {
 }
 
 
-/*
-int kumaar_div(int current_value, int div_val) {
-    // Write your logic here
+
+int kumaar_div(int c, int d) {
+    return c/d;
 }
-*/
+
 
 
 int naveen_mod(int cv, int mv) {
