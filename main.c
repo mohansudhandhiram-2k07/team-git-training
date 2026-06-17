@@ -6,7 +6,7 @@ int mohan_add(int current_value, int add_val);
 int nandhitha_sub(int current_value, int sub_val);
  int nandhana_mul(int current_value, int mul_val);
 // int kumaar_div(int current_value, int div_val);
-// int naveen_mod(int current_value, int mod_val);
+ int naveen_mod(int current_value, int mod_val);
 
 int main(void) {
     printf("--- Initiating the Math Pipeline ---\n\n");
@@ -32,8 +32,8 @@ int main(void) {
     // result = kumaar_div(result, 4);
     // printf("After Kumaar's Div (/4): %d\n", result);
 
-    // result = naveen_mod(result, 7);
-    // printf("After Naveen's Mod (%%7): %d\n", result);
+     result = naveen_mod(result, 7);
+     printf("After Naveen's Mod (%%7): %d\n", result);
 
     printf("\n--- Final Pipeline Output: %d ---\n", result);
     return 0;
@@ -67,8 +67,7 @@ int kumaar_div(int current_value, int div_val) {
 }
 */
 
-/*
-int naveen_mod(int current_value, int mod_val) {
-    // Write your logic here
+
+int naveen_mod(int cv, int mv) {
+    return cv % mv;
 }
-*/
