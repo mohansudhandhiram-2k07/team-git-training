@@ -62,8 +62,8 @@ int nandhana_mul(int current_value, int mul_val) {
 
 
 
-int kumaar_div(int c, int d) {
-    return c/d;
+int kumaar_div(int curr, int d) {
+    return curr/d;
 }
 
 
