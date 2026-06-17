@@ -60,7 +60,7 @@ int nandhana_mul(int current_value, int mul_val) {
     return current_value * mul_val;
 }
 
-
+//
 
 int kumaar_div(int curr, int d) {
     return curr/d;
