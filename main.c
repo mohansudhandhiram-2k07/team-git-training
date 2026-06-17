@@ -3,7 +3,7 @@
 // --- 1. Function Prototypes ---
 // Teammates: Uncomment your specific prototype when it's your turn.
 int mohan_add(int current_value, int add_val);
-// int nandhitha_sub(int current_value, int sub_val);
+int nandhitha_sub(int current_value, int sub_val);
  int nandhana_mul(int current_value, int mul_val);
 // int kumaar_div(int current_value, int div_val);
 // int naveen_mod(int current_value, int mod_val);
@@ -23,8 +23,8 @@ int main(void) {
     // Teammates: Uncomment your step, make sure you use the 'result' 
     // from the previous person, and save it back to 'result'.
 
-    // result = nandhitha_sub(result, 5);
-    // printf("After Nandhitha's Sub (-5): %d\n", result);
+    result = nandhitha_sub(result, 5);
+    printf("After Nandhitha's Sub (-5): %d\n", result);
 
     result = nandhana_mul(result, 2);
     printf("After Nandhana's Mul (*2): %d\n", result);
@@ -49,11 +49,11 @@ int main(void) {
 // Teammates: Define your functions below!
 // They should look very similar to Mohan's function above.
 
-/*
+
 int nandhitha_sub(int current_value, int sub_val) {
-    // Write your logic here
+    return current_value - sub_value;
 }
-*/
+
 
 
 int nandhana_mul(int current_value, int mul_val) {
