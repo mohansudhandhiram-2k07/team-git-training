@@ -15,8 +15,7 @@
 
 // --- 1. Function Prototypes ---
 // Teammates: Uncomment your prototype when it's your turn.
-
-// int mohan_receive_shipment(int stock, int amount);
+int mohan_receive_shipment(int stock, int amount);
 // int nandhitha_fulfill_order(int stock, int amount);
 // int nandhana_process_returns(int stock, int amount);
 // int kumaar_damage_writeoff(int stock, int amount);
@@ -32,10 +31,10 @@ int main(void) {
     // Teammates: Uncomment your section. 
     // Notice how EVERY transaction attempts to break the rules!
 
-    /* --- Mohan's Task ---
+    // --- Mohan's Task ---
     stock = mohan_receive_shipment(stock, 150);
     printf("After Mohan's Shipment (+150): %d\n", stock);
-    */
+    
 
     /* --- Nandhitha's Task ---
     stock = nandhitha_fulfill_order(stock, 250); 
@@ -64,12 +63,12 @@ int main(void) {
 // --- 3. Function Definitions ---
 // Teammates: Write your logic below. 
 
-/* Mohan
+// Mohan
 int mohan_receive_shipment(int stock, int amount) {
     
     return 0; 
 }
-*/
+
 
 /* Nandhitha
 int nandhitha_fulfill_order(int stock, int amount) {
