@@ -76,25 +76,21 @@ int nandhitha_fulfill_order(int stock, int amount) {
     
     return 0;
 }
-*/
 
 /* Nandhana
 int nandhana_process_returns(int stock, int amount) {
     
     return 0;
 }
-*/
 
 /* Kumaar
 int kumaar_damage_writeoff(int stock, int amount) {
     
     return 0;
 }
-*/
 
 /* Naveen
 int naveen_store_transfer(int stock, int amount) {
     
     return 0;
 }
-*/
