@@ -19,6 +19,8 @@ int mohan_receive_shipment(int stock, int amount);
 // int nandhitha_fulfill_order(int stock, int amount);
  int nandhana_process_returns(int stock, int amount);
 // int kumaar_damage_writeoff(int stock, int amount);
+// int nandhana_process_returns(int stock, int amount);
+int kumaar_damage_writeoff(int stock, int amount);
 // int naveen_store_transfer(int stock, int amount);
 
 int main(void) {
@@ -46,10 +48,10 @@ int main(void) {
     printf("After Nandhana's Returns (+500): %d\n", stock);
 
 
-    /* --- Kumaar's Task ---
+    // --- Kumaar's Task ---
     stock = kumaar_damage_writeoff(stock, 300);
     printf("After Kumaar's Write-off (-300): %d\n", stock);
-    */
+    
 
     /* --- Naveen's Task ---
     stock = naveen_store_transfer(stock, 250);
@@ -80,12 +82,15 @@ int nandhitha_fulfill_order(int stock, int amount) {
 int nandhana_process_returns(int stock, int amount) {
     
     return 0;
-}
+}*/
 
-/* Kumaar
+// Kumaar
 int kumaar_damage_writeoff(int stock, int amount) {
-    
-    return 0;
+     stock = stock - amount;
+    if (stock < 0) {
+        return 0;
+    }
+    return stock;
 }
 
 /* Naveen
