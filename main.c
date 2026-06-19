@@ -32,8 +32,8 @@ int main(void) {
     // result = kumaar_div(result, 4);
     // printf("After Kumaar's Div (/4): %d\n", result);
 
-     result = naveen_mod(result, 7);
-     printf("After Naveen's Mod (%%7): %d\n", result);
+    // result = naveen_mod(result, 7);
+    // printf("After Naveen's Mod (%%7): %d\n", result);
 
     printf("\n--- Final Pipeline Output: %d ---\n", result);
     return 0;
