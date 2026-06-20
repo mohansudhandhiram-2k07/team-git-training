@@ -16,6 +16,9 @@
 // --- 1. Function Prototypes ---
 // Teammates: Uncomment your prototype when it's your turn.
 int mohan_receive_shipment(int stock, int amount);
+// int nandhitha_fulfill_order(int stock, int amount);
+ int nandhana_process_returns(int stock, int amount);
+// int kumaar_damage_writeoff(int stock, int amount);
  int nandhitha_fulfill_order(int stock, int amount);
 // int nandhana_process_returns(int stock, int amount);
 int kumaar_damage_writeoff(int stock, int amount);
@@ -41,10 +44,10 @@ int main(void) {
     printf("After Nandhitha's Order (-250): %d\n", stock);
     
 
-    /* --- Nandhana's Task ---  
+    // --- Nandhana's Task ---  
     stock = nandhana_process_returns(stock, 500);
     printf("After Nandhana's Returns (+500): %d\n", stock);
-    */
+
 
     // --- Kumaar's Task ---
     stock = kumaar_damage_writeoff(stock, 300);
@@ -76,7 +79,7 @@ int nandhitha_fulfill_order(int stock, int amount) {
     return 0;
 }
 
-/* Nandhana
+// Nandhana
 int nandhana_process_returns(int stock, int amount) {
     
     return 0;
