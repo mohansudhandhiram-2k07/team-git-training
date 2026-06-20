@@ -69,5 +69,5 @@ int kumaar_div(int current_value, int div_val) {
 
 
 int naveen_mod(int cv, int mv) {
-    return cv % mv;
+    return cv % mv;m
 }
