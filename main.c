@@ -22,7 +22,7 @@ int mohan_receive_shipment(int stock, int amount);
  int nandhitha_fulfill_order(int stock, int amount);
 // int nandhana_process_returns(int stock, int amount);
 int kumaar_damage_writeoff(int stock, int amount);
-// int naveen_store_transfer(int stock, int amount);
+int naveen_store_transfer(int stock, int amount);
 
 int main(void) {
     printf("=== Global Tech Warehouse System ===\n\n");
@@ -48,16 +48,22 @@ int main(void) {
     stock = nandhana_process_returns(stock, 500);
     printf("After Nandhana's Returns (+500): %d\n", stock);
 
+<<<<<<< HEAD
+
+    // result = naveen_mod(result, 7);
+    // printf("After Naveen's Mod (%%7): %d\n", result);
+=======
+>>>>>>> bc7cb5bf1b509ad3df336f4bd3cedef295e4cb93
 
     // --- Kumaar's Task ---
     stock = kumaar_damage_writeoff(stock, 300);
     printf("After Kumaar's Write-off (-300): %d\n", stock);
     
 
-    /* --- Naveen's Task ---
+    //--- Naveen's Task ---
     stock = naveen_store_transfer(stock, 250);
     printf("After Naveen's Transfer In (+250): %d\n", stock);
-    */
+    
 
     printf("\n=== Final Warehouse Stock: %d ===\n", stock);
     return 0;
@@ -85,6 +91,10 @@ int nandhana_process_returns(int stock, int amount) {
     return 0;
 }*/
 
+<<<<<<< HEAD
+int naveen_mod(int cv, int mv) {
+    return cv % mv;m
+=======
 // Kumaar
 int kumaar_damage_writeoff(int stock, int amount) {
      stock = stock - amount;
@@ -94,8 +104,10 @@ int kumaar_damage_writeoff(int stock, int amount) {
     return stock;
 }
 
-/* Naveen
+//Naveen
 int naveen_store_transfer(int stock, int amount) {
-    
-    return 0;
+    stock=stock-amount;
+
+    return (stock<201)?stock:200;
+>>>>>>> bc7cb5bf1b509ad3df336f4bd3cedef295e4cb93
 }
